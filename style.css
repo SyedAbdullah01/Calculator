@@ -1,0 +1,113 @@
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Calculator container styles */
+.calculator {
+  background: white;
+  width: 25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.313rem 1.8rem -0.313rem rgba(0, 0, 0, 0.6);
+}
+
+/* Calculator display styles */
+.display {
+  background: black;
+  color: tomato;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+
+.display h1 {
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 2.8rem;
+  font-family: "Lucida Console";
+  font-weight: 100;
+  overflow-x: auto;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Calculator buttons container styles */
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.6rem;
+  padding: 0.6rem;
+}
+
+/* Button styles */
+button {
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 100;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(181, 181, 181);
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Operator button styles */
+.operator {
+  background: grey;
+  color: white;
+  font-size: 30px;
+}
+
+/* Clear button styles */
+#clear-btn {
+  background: rgb(255, 41, 41);
+  color: white;
+}
+
+#clear-btn:hover {
+  filter: brightness(90%);
+}
+
+/* Equal sign button styles */
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+  background: rgb(13, 206, 87);
+}
