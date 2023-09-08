@@ -30,9 +30,9 @@ The Calculator web application is built using the following technologies:
 
 - **JavaScript**: The calculator's functionality, including arithmetic operations and user interaction, is programmed using JavaScript.
 
-- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
-
 - **GitHub**: The codebase is hosted and shared on GitHub.
+
+- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
 
 These technologies work together to provide a simple yet effective calculator application that can be used for basic arithmetic calculations on various devices.
 
